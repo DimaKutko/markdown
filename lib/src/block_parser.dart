@@ -35,6 +35,7 @@ class BlockParser {
 
   /// Index of the current line.
   int _pos = 0;
+  int get pos => _pos;
 
   /// Whether the parser has encountered a blank line between two block-level
   /// elements.
